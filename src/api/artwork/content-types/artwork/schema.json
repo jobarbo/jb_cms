@@ -4,7 +4,8 @@
   "info": {
     "singularName": "artwork",
     "pluralName": "artworks",
-    "displayName": "Artworks"
+    "displayName": "Artworks",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,37 +16,39 @@
     }
   },
   "attributes": {
-    "Gallery": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
+    "gallery": {
       "type": "media",
       "multiple": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "Image": {
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
     },
-    "Title": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "title": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -53,7 +56,7 @@
       },
       "type": "string"
     },
-    "Description": {
+    "description": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -61,7 +64,7 @@
       },
       "type": "richtext"
     },
-    "URL": {
+    "url": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -69,13 +72,24 @@
       },
       "type": "string"
     },
-    "Link_Label": {
+    "link_label": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
       "type": "string"
+    },
+    "tag_group": {
+      "displayName": "tags",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "tags.tags"
     }
   }
 }
