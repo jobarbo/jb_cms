@@ -90,6 +90,12 @@
         }
       },
       "component": "tags.tags"
+    },
+    "exhibition": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::exhibition.exhibition",
+      "inversedBy": "artworks"
     }
   }
 }
