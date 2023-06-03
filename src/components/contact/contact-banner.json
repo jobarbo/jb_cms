@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_contact_contact_banners",
+  "info": {
+    "displayName": "Contact banner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link_label": {
+      "type": "string"
+    },
+    "link_url": {
+      "type": "string"
+    }
+  }
+}

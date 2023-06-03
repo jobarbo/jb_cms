@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_featured_featured_works",
+  "info": {
+    "displayName": "Featured Work",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link_label": {
+      "type": "string"
+    },
+    "link_url": {
+      "type": "string"
+    }
+  }
+}

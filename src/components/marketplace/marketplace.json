@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_marketplace_marketplaces",
+  "info": {
+    "displayName": "Marketplace",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "card": {
+      "displayName": "Marketplace list",
+      "type": "component",
+      "repeatable": true,
+      "component": "marketplace-list.marketplace-list"
+    }
+  }
+}

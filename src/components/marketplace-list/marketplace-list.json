@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_marketplace_list_marketplace_lists",
+  "info": {
+    "displayName": "Marketplace list"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
