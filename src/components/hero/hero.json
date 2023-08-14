@@ -10,10 +10,6 @@
       "type": "string",
       "required": true
     },
-    "surtitle": {
-      "type": "string",
-      "required": true
-    },
     "description": {
       "type": "string",
       "required": true
@@ -28,11 +24,6 @@
         "videos",
         "audios"
       ]
-    },
-    "skills": {
-      "type": "component",
-      "repeatable": true,
-      "component": "skills.skills"
     }
   }
 }
